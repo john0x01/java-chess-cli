@@ -7,8 +7,14 @@ import chess.Color;
 
 public class Rook extends ChessPiece {
 
+    private int value = 5;
+
     public Rook(Board board, Color color) {
         super(board, color);
+    }
+
+    public int getValue() {
+        return value;
     }
 
     @Override
